@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In and Sign Out Form</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            color: whitesmoke;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            align-items: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #f7f7f7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+            color: #8d8d8d;
+        }
+
+        input {
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #8d0000;
+            color: #fff;
+        }
+
+        button:hover {
+            background-color: #070707;
+            border: #8d0000;
+            border-radius: 10px
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post">
+        <h3>Simple Form</h3>
+        <label for="name">Enter Your Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name" autofocus>
+
+        <label for="city">Enter Your City Name</label>
+        <input type="text" id="city" placeholder="Enter Your City Name" autofocus>
+
+        <label for="Phone">Enter Your Phone Number</label>
+        <input type="number" id="Phone" placeholder="Enter Your Phone Number" autofocus>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
