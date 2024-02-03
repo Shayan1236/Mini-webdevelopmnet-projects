@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <style>
+        body {
+            
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 8px solid rgb(255, 252, 252);
+            border-radius: 10px;
+            background-color: rgb(172, 28, 28);
+            margin: 20px;
+        }
+
+        .contanor {
+            display: flex;
+            overflow: hidden;
+            background-color: rgb(0, 0, 0);
+           
+        }
+
+        video {
+            width: 400px;
+            height: 200px;
+            border: 5px solid rgb(240, 231, 231);
+        
+            box-sizing: border-box;
+        }
+
+        label {
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #242323;
+            color: rgb(255, 248, 248);
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Videos</h1>
+    </header>
+    <main>
+        <div class="contanor">
+            <div>
+                <label for="v1">Video No 1</label>
+                <video src="v1.mp4" controls></video>
+            </div>
+
+            <div>
+                <label for="v2">Video No 2</label>
+                <video src="v2.mp4" controls></video>
+            </div>
+
+            <div>
+                <label for="v3">Video No 3</label>
+                <video src="v3.mp4" controls></video>
+            </div>
+        </div>
+        <div class="contanor">
+            <div>
+                <label for="v1">Video No 4</label>
+                <video src="v1.mp4" controls></video>
+            </div>
+
+            <div>
+                <label for="v2">Video No 5</label>
+                <video src="v2.mp4" controls></video>
+            </div>
+
+            <div>
+                <label for="v3">Video No 6</label>
+                <video src="v3.mp4" controls></video>
+            </div>
+        </div>
+         
+        <h1>My Audio</h1>
+    <div class="contanor">
+        <div class="audio-container">
+            <label for="a1">Audio No 1</label>
+            <audio src="a1.mp3" controls></audio>
+        </div>
+
+        <div class="audio-container">
+            <label for="a2">Audio No 2</label>
+            <audio src="a2.mp3" controls></audio>
+        </div>
+
+        <div class="audio-container">
+            <label for="a3">Audio No 3</label>
+            <audio src="a1.mp3" controls></audio>
+        </div>
+    </div>
+
+    <div class="contanor">
+        <div class="audio-container">
+            <label for="a4">Audio No 4</label>
+            <audio src="a1.mp3" controls></audio>
+        </div>
+
+        <div class="audio-container">
+            <label for="a5">Audio No 5</label>
+            <audio src="a2.mp3" controls></audio>
+        </div>
+
+        <div class="audio-container">
+            <label for="a6">Audio No 6</label>
+            <audio src="a1.mp3" controls></audio>
+        </div>
+    </div>
+
+    </main>
+
+</body>
+
+</html>
