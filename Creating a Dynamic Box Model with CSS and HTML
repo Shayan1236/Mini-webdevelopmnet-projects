@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <style>
+        body {
+         
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #a8b1e2;
+        }
+
+        .box {
+            background-color: rgb(238, 255, 0);
+            padding: 50px;
+            margin: 100px;
+            justify-content: center;
+            text-align: center;
+            border: 10px solid rgb(29, 29, 29);
+            border-radius: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(0, 0, 0);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+            width: 80px;
+        }
+
+        .box:hover {
+            color: #ffffff;
+            background-color:#76167c;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">HELLO</div>
+
+</html>
